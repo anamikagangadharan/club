@@ -1,0 +1,123 @@
+@media screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    /* background-image: url(../../assets/carbg.svg); */
+    background-color: black;  
+    width: 100%;
+    height: 100vh;
+  }
+  .div1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .div1 > :nth-child(1) {
+    color: #ccc;
+    font-size: 18px;
+  }
+  .div1 > :nth-child(2) {
+    color: #666;
+    font-size: 14px;
+  }
+  .div2{
+    display: flex;
+    flex-direction: column;
+  }
+  .form1{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sinput {
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    width: 312px;
+    height: 42px;
+    padding: 10px 16px;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    margin-top: 16px;
+  }
+  .fg{
+    display: flex;
+    justify-content: end;
+    color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-size: 12px;
+font-family: Poppins;
+  }
+
+  .snbutton{
+    display: flex;
+width: 312px;
+height: 40px;
+padding: 0px 24px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 10px;
+background: rgba(255, 255, 255, 0.60);
+border: none;
+  }
+.desc{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 12px;
+    font-family: Outfit;
+    font-weight: 300;
+    line-height: 20px;
+}
+.tc{
+   color: rgba(255, 255, 255, 0.8)
+}
+.desc2{
+    margin-top: 20px;
+    color: #666;
+text-align: center;
+font-size: 14px;
+font-family: Poppins;
+}
+.sup{
+  color:   rgba(255, 255, 255, 0.7)
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .container{
+    background-image: url(../../assets/carbg.svg);
+    width: 100%;
+    height: 100vh;
+} */
