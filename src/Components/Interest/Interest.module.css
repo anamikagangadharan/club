@@ -1,0 +1,64 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    color: aliceblue;
+  
+    background: url(../../assets/newcarbg.svg) no-repeat center center fixed #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 0% 10%;
+
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+}
+.div1>:nth-child(1){
+    font-size: 18px;
+}
+.div1>:nth-child(2){
+    font-size: 14px;
+}
+.div2{
+    margin-top: 2rem;
+  /* display: flex; */
+  /* flex-direction: column; */
+  gap: 1rem
+    
+}
+.boxmain{
+    display: flex;
+    /* flex-direction: column; */
+    width: 100%;
+    flex-wrap: wrap;
+    gap:1rem
+}
+/* .bx{
+   
+    width: fit-content;
+    border: 1px solid rgba(153, 153, 153, 1);
+    border-radius: 8px;
+    padding: 2% 2%;
+
+} */
+.bx{
+    display: flex;
+height: 32px;
+padding: 0px 16px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+width: fit-content;
+border-radius: 8px;
+border: 1px solid var(--g-20, #CCC);
+font-size: 14px;
+/* background: rgba(255, 255, 255, 0.20); */
+
+}

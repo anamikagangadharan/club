@@ -1,5 +1,6 @@
 import React from 'react'
 import css from "./Signin.module.css"
+import Eye from "../../assets/eye.svg" 
 
 const Signin = () => {
   return (
@@ -12,7 +13,11 @@ const Signin = () => {
  <div className={css.div2}>
     <form className={css.form1} action="">
         <input className={css.sinput} type="text"  placeholder='Phonenumber'/>
+        <div className={css.s1}>
         <input className={css.sinput} type="password" placeholder='Password' />
+        <img className={css.eye} src={Eye} alt="" />
+        </div>
+       
         <span className={css.fg}>Forgot password?</span>
         <button className={css.snbutton}>Sign In</button>
     </form>

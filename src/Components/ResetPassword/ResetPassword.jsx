@@ -11,12 +11,15 @@ const ResetPassword = () => {
      <div className={css.div2}>
      <form className={css.form1} action="">
         <div className={css.s1}>
-        <input className={css.sinput} type="password"  placeholder='Phonenumber'/>
+        <input className={css.sinput} type="password"  placeholder='New Password'/>
         <img className={css.eye} src={Eye} alt="" />
         </div>
        
-        <input className={css.sinput} type="password"  placeholder='Phonenumber'/>
-        {/* <img className={css.eye2} src={Eye} alt="" /> */}
+       <div className={css.s1}>
+       <input className={css.sinput} type="password"  placeholder='Confirm Password'/>
+        <img className={css.eye2} src={Eye} alt="" />
+       
+       </div>
        
       
         <button className={css.resetbutton}>Reset & Signin</button>

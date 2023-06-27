@@ -1,71 +1,75 @@
-.container{
-    display: flex;
-    flex-direction: column;
-    background-color: black;
-    width: 100%;
-    height: 100vh;
-    color: aliceblue;
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  color: aliceblue;
+  /* background-image: url(../../assets/newcarbg.svg);
+    background-repeat: no-repeat; */
+  background: url(../../assets/newcarbg.svg) no-repeat center center fixed #000;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 0% 10%;
 }
 
-
-.div1>:nth-child(1){
-    color: #CCC;
-text-align: center;
-font-size: 18px;
-font-family: Poppins;
-font-weight: 500;
+.div1 > :nth-child(1) {
+  color: #ccc;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+.div2 {
+  /* padding: 0% 10%; */
+  width: 100%;
+}
+.form1 {
+  display: flex;
+  flex-direction: column;
+}
+.s1 {
+  position: relative;
+}
+.sinput {
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  width: 100%;
+  height: 42px;
+  padding: 0% 5%;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  margin-top: 16px;
 }
 
-.form1{
-    display: flex;
-    flex-direction: column;
- 
-  }
-  /* .div2{
-    position: relative;
-  } */
-.s1{
-  
-    position: relative;
+.eye {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 8%;
+  top: 44.5%;
 }
-  .sinput {
-    border-radius: 6px;
-    background: rgba(255, 255, 255, 0.1);
-    display: flex;
-    /* width: 312px; */
-    width: 100%;
-    height: 42px;
-    padding: 10px 16px;
-    align-items: center;
-    gap: 10px;
-    border: none;
-    margin-top: 16px; 
-    
-    /* position: relative; */
-  }
-  .eye{
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    right: 34%;
-    top: 44.5%
-  }
-  .eye2{
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    right: 6%;
-    top: 9.5%;
-  }
-  .resetbutton{
-    display: flex;
-width: 312px;
-height: 40px;
-padding: 0px 24px;
-justify-content: center;
-align-items: center;
-gap: 10px;
-border-radius: 10px;
-background: rgba(255, 255, 255, 0.60);
-border: none;
-  }
+.eye2 {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 8%;
+  top: 48%;
+}
+.resetbutton {
+  display: flex;
+  margin-top: 32px;
+  width: 100%;
+  height: 40px;
+  padding: 0px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.6);
+  border: none;
+}
