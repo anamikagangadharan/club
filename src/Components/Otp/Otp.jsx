@@ -26,10 +26,14 @@ const Otp = () => {
     </div>
 
     <div className={css.div2}>
-      <div className={css.sdiv}>0</div>
-      <div className={css.sdiv}>4</div>
+      {/* <div className={css.sdiv}></div> */}
+      <input className={css.sdiv} type="number" />
+      <input className={css.sdiv} type="number" />
+      <input className={css.sdiv} type="number" />
+      <input className={css.sdiv} type="number" />
+      {/* <div className={css.sdiv}>4</div>
       <div className={css.sdiv}>7</div>
-      <div className={css.sdiv}>3</div>
+      <div className={css.sdiv}>3</div> */}
     </div>
 
     <div className={css.div3}>
