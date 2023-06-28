@@ -14,7 +14,7 @@ const Signup = () => {
       <div className={css.div2}>
         <form className={css.form1} action="">
           <input className={css.sinput} type="text" placeholder='Username' />
-          <input className={css.sinput} type="text" placeholder='Username' />
+          <input className={css.sinput} type="text" placeholder='Phone Number' />
           <div className={css.s1}>
         <input className={css.sinput} type="password"  placeholder='New Password'/>
         <img className={css.eye} src={Eye} alt="" />

@@ -31,7 +31,7 @@ const Addcar = () => {
 
 
 
-        <div className={css.div3}></div>
+        {/* <div className={css.div3}></div> */}
       
     </div>
   )

@@ -9,6 +9,9 @@ import SignUp from './Components/Signup/Signup';
 import Addcar from './Components/Addcar/Addcar';
 import Membership from './Components/Membership/Membership';
 import Interest from './Components/Interest/Interest';
+import Notification from './Components/Notification/Notification';
+import Notifications from './Components/Notifications/Notifications';
+import Profile from './Components/Profile/Profile';
 
 function App() {
   return (
@@ -26,6 +29,8 @@ function App() {
                 <Route path="/addcar" element={<Addcar/>}/>
                 <Route path="/membership" element={<Membership/>}/>
                 <Route path="/interest" element={<Interest/>}/>
+                <Route path="/notification" element={<Notifications/>}/>
+                <Route path="/profile" element={<Profile/>}/>
       
         </Routes>  
         
