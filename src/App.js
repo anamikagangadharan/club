@@ -12,6 +12,7 @@ import Interest from './Components/Interest/Interest';
 import Notification from './Components/Notification/Notification';
 import Notifications from './Components/Notifications/Notifications';
 import Profile from './Components/Profile/Profile';
+import CarDetails from './Components/CarDetails/CarDetails';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
                 <Route path="/interest" element={<Interest/>}/>
                 <Route path="/notification" element={<Notifications/>}/>
                 <Route path="/profile" element={<Profile/>}/>
+                <Route path="/cardetails" element={<CarDetails/>}/>
       
         </Routes>  
         
