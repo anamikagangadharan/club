@@ -14,6 +14,12 @@ import Notifications from './Components/Notifications/Notifications';
 import Profile from './Components/Profile/Profile';
 import CarDetails from './Components/CarDetails/CarDetails';
 import ChangePassword from './Components/ChangePassword/ChangePassword';
+import PersonlInformation from './Components/PersonalInformation/PersonlInformation';
+import CarEmpty from './Components/CarEmpty/CarEmpty';
+import EventEmpty from './Components/EventEmpty/EventEmpty';
+import ServiceEmpty from './Components/ServiceEmpty/ServiceEmpty';
+import QRcode from './Components/QRcode/QRcode';
+import Scan from './Components/Scan/Scan';
 
 function App() {
   return (
@@ -35,6 +41,13 @@ function App() {
                 <Route path="/profile" element={<Profile/>}/>
                 <Route path="/cardetails" element={<CarDetails/>}/>
                 <Route path="/changepassword" element={<ChangePassword/>}/>
+                <Route path="/personalinformation" element={<PersonlInformation/>}/>
+                <Route path="/car" element={<PersonlInformation/>}/>
+                <Route path="/carempty" element={<CarEmpty/>}/>
+                <Route path="/eventempty" element={<EventEmpty/>}/>
+                <Route path="/serviceempty" element={<ServiceEmpty/>}/>
+                <Route path="/qr" element={<QRcode/>}/>
+                <Route path="/scan" element={<Scan/>}/>
       
         </Routes>  
         

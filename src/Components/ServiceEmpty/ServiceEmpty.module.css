@@ -1,0 +1,69 @@
+.container{
+    background: #121212;
+    height: 100vh;
+    width: 100%;
+    padding: 2% 4%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.div1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.div1left{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    
+}
+.arrowleft{
+    width: 20px;
+height: 20px;
+}
+.div1left>:nth-child(2){
+    color:rgba(204, 204, 204, 1);
+text-align: center;
+font-size: 16px;
+
+font-style: normal;
+font-weight: 100;
+line-height: normal;
+letter-spacing: -0.3px;
+}
+.plus{
+    width: 20px;
+height: 20px;
+}
+
+.div2{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.car{
+    width: 100%;
+height: 169.025px;
+}
+.div2>:nth-child(2){
+    color: rgba(204, 204, 204, 1);
+    font-size: 12px;
+letter-spacing: -0.3px;
+}
+
+.viewservicebutton{
+    display: flex;
+    margin-top: 32px;
+    width: 100%;
+    height: 40px;
+    padding: 0px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: rgba(0, 122, 255, 1);
+    color: #EDF8FD;
+    border: none;
+}
