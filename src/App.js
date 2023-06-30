@@ -13,6 +13,7 @@ import Notification from './Components/Notification/Notification';
 import Notifications from './Components/Notifications/Notifications';
 import Profile from './Components/Profile/Profile';
 import CarDetails from './Components/CarDetails/CarDetails';
+import ChangePassword from './Components/ChangePassword/ChangePassword';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
                 <Route path="/notification" element={<Notifications/>}/>
                 <Route path="/profile" element={<Profile/>}/>
                 <Route path="/cardetails" element={<CarDetails/>}/>
+                <Route path="/changepassword" element={<ChangePassword/>}/>
       
         </Routes>  
         
