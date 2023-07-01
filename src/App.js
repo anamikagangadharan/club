@@ -21,6 +21,7 @@ import ServiceEmpty from './Components/ServiceEmpty/ServiceEmpty';
 import QRcode from './Components/QRcode/QRcode';
 import Scan from './Components/Scan/Scan';
 import CarList from './Components/CarList/CarList';
+import Saved from './Components/Saved/Saved';
 
 function App() {
   return (
@@ -50,6 +51,7 @@ function App() {
                 <Route path="/qr" element={<QRcode/>}/>
                 <Route path="/scan" element={<Scan/>}/>
                 <Route path="/carlist" element={<CarList/>}/>
+                <Route path="/saved" element={<Saved/>}/>
       
         </Routes>  
         
