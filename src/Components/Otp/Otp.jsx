@@ -64,6 +64,7 @@ const Otp = () => {
 
   
     <div className={css.div2}>
+
       {otpValues.map((value, index) => (
           <input
             key={index}
@@ -73,6 +74,7 @@ const Otp = () => {
             onChange={(e) => handleOtpChange(index, e.target.value)}
           />
         ))}
+
     </div>
   
 

@@ -76,9 +76,11 @@ const Signup = () => {
       </div>
 
       <div className={css.div2}>
+
         <form className={css.form1} onSubmit={handleSubmit}>
           <input className={css.sinput} type="text" placeholder='Username' value={username} onChange={(e) => setUsername(e.target.value)} />
           <input className={css.sinput} type="text" placeholder='Phone Number' value={phoneNumber} onChange={(e) => setPhoneNumber(e.target.value)} />
+
           <div className={css.s1}>
         <input className={css.sinput} type="password"  placeholder='New Password' value={password} onChange={(e) => setPassword(e.target.value)} />
         <img className={css.eye} src={Eye} alt="" />

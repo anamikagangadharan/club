@@ -1,0 +1,127 @@
+@media screen and (max-width: 768px) {
+  .container {
+    background: #121212;
+    width: 100%;
+    /* height: 100vh; */
+    color: #ffffff;
+    padding: 2% 4%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .div1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .div1left {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .arrowleft {
+    width: 20px;
+    height: 20px;
+  }
+  .div1left > :nth-child(2) {
+    color: rgba(204, 204, 204, 1);
+    text-align: center;
+    font-size: 16px;
+
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    letter-spacing: -0.3px;
+  }
+  .filter {
+    width: 20px;
+    height: 20px;
+  }
+
+  .div2 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  
+  }
+  .s1 {
+    position: relative;
+    width: 100%;
+  }
+  .save1 {
+    width: 100%;
+    /* position: relative; */
+  }
+  .date {
+    display: flex;
+    height: 40px;
+    padding: 6px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(2px);
+    color: rgba(204, 204, 204, 1);
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 85%;
+    top: 3%;
+  }
+  .addto{
+    position: absolute;
+    right: 5%;
+    top: 3%;
+    height: 30px;
+    width: 30px;
+  }
+
+.s2{
+    font-size: 12px;
+    text-align: left;
+    color: rgba(179, 179, 179, 1);
+}
+.div3{
+  color: aqua;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* position: relative; */
+}
+  .div3left>img{
+    width: 35px;
+    height: 35px;
+  }
+
+
+.div3middle{
+ color: rgba(153, 153, 153, 1);
+ font-size: 12px;
+ /* width: 25%; */
+
+}
+.div3right{
+ color: rgba(153, 153, 153, 1);
+ font-size: 12px;
+ display: flex;
+ gap: 0.1rem;
+ align-items: center;
+ /* width: 50%; */
+
+}
+  .p1{
+   
+  }
+  .p2{
+    margin-left: -17px;
+   
+  }
+  .p3{
+    margin-left: -17px;
+  }
+
+}
