@@ -2,7 +2,7 @@
   .container {
     background: #121212;
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     color: #ffffff;
     padding: 2% 4%;
     display: flex;
@@ -42,6 +42,8 @@
   .div2 {
     display: flex;
     flex-direction: column;
+    gap: 0.5rem;
+  
   }
   .s1 {
     position: relative;
@@ -78,43 +80,48 @@
   }
 
 .s2{
-    font-size: 10px;
+    font-size: 12px;
     text-align: left;
+    color: rgba(179, 179, 179, 1);
 }
-.s3{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
+.div3{
+  color: aqua;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* position: relative; */
 }
-.s3left{
-    display: flex;
-    align-items: center;
-    /* position: relative; */
-    justify-content: space-between;
-    width: 100%;
-    
-}
-
-  .leftfirst>img{
+  .div3left>img{
     width: 35px;
     height: 35px;
   }
-.leftfirst{
-    /* position: relative; */
+
+
+.div3middle{
+ color: rgba(153, 153, 153, 1);
+ font-size: 12px;
+ /* width: 25%; */
+
 }
-.leftlast{
-    /* margin-left: 2rem; */
+.div3right{
+ color: rgba(153, 153, 153, 1);
+ font-size: 12px;
+ display: flex;
+ gap: 0.1rem;
+ align-items: center;
+ /* width: 50%; */
+
 }
   .p1{
-    /* position: absolute; */
-    right: 64%;
+   
   }
   .p2{
-    /* position: absolute; */
-    right: 36%;
+    margin-left: -17px;
+   
   }
   .p3{
-    /* position: absolute; */
-    right: 11%;
+    margin-left: -17px;
   }
+
 }
